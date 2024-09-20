@@ -2,12 +2,12 @@
 Banyaknya perusahaan penyedia layanan telekomunikasi selular di Indonesia menjadikan tiap provider harus memahami kelebihan dan kekurangan layanan perusahaannya sendiri dan juga perusahaan pesaing. Kelebihan dan kekurangan tersebut dapat dilihat salah satunya dari cuitan media sosial, seperti Twitter. Dengan demikian, diperlukan analisis sentimen pada Twitter pengguna menyangkut penyedia layanan telekomunikasi selular tersebut. Dalam proyek ini, analisis sentimen dikelompokkan dalam analisis sentimen positif dan negatif dengan menggunakan perbandingan dua model algoritma, yaitu Naive Bayes dan Support Vector Machine.
 
 ## DAFTAR ISI
-- [DATASET](#dataset)
-- [DATA PREPROCESSING](#data-processing)
-- [FEATURE ENGINEERING](#feature-engineering)
-- [MODELLING](#modelling)
-- [MODEL EVALUATION](#model-evaluation)
-- [CONCLUSION](#conclusion)
+- [📄DATASET](#dataset)
+- [🔍DATA PREPROCESSING](#data-processing)
+- [🛠️FEATURE ENGINEERING](#feature-engineering)
+- [⚙️MODELLING](#modelling)
+- [📝MODEL EVALUATION](#model-evaluation)
+- [📌CONCLUSION](#conclusion)
   
 ## DATASET
 Dataset bersumber dari [Github](https://github.com/rizalespe/Dataset-Sentimen-Analisis-Bahasa-Indoensia) yang berisikan 300 data tentang cuitan pengguna terhadap penyedia layanan telekomunikasi di Twitter. Data terdiri dari 3 kolom:
@@ -102,13 +102,15 @@ Dataset bersumber dari [Github](https://github.com/rizalespe/Dataset-Sentimen-An
 
 ## MODEL EVALUATION
 1. Naive Bayes
-   Memiliki confusion matrix sebagai berikut:
+   Memiliki confusion matrix sebagai berikut
+   
    ![Confusion Matrix Naive Bayes](https://raw.githubusercontent.com/latifatuzikra-suhairi/sentimen-layanan-telekomunikasi/main/static/CF_GNB_Sentimen_Telekomunikasi.png)
 
    Hasilnya, model ini memiliki **akurasi 98%** dengan jumlah prediksi yang benar 88 data dan prediksi yang salah 2 data.
 
-2. Support Vector Machine
-   Memiliki confusion matrix sebagai berikut:
+3. Support Vector Machine
+   Memiliki confusion matrix sebagai berikut
+   
    ![Confusion Matrix SVM](https://raw.githubusercontent.com/latifatuzikra-suhairi/sentimen-layanan-telekomunikasi/main/static/CF_SVM_Sentimen_Telekomunikasi.png)
 
    Hasilnya, model ini memiliki **akurasi 78.8%** dengan jumlah prediksi yang benar 71 data dan prediksi yang salah 19 data.
